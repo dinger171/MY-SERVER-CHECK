@@ -1,0 +1,16 @@
+#online {
+  color: green;
+  font-size: larger;
+  font-weight: bolder;
+}
+#offline {
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+}
+#container {
+  display: block;
+  background: rgba(255, 215, 166, 0.5);
+  padding: 5em;
+  border-radius: 1em;
+}
