@@ -1,3 +1,8 @@
+* {
+  animation: load;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 #online {
   color: green;
   font-size: larger;
@@ -13,4 +18,14 @@
   background: rgba(255, 215, 166, 0.5);
   padding: 5em;
   border-radius: 1em;
+}
+@keyframes load {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
